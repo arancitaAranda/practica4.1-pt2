@@ -1,0 +1,31 @@
+.titulo {
+    text-align: center;
+    background-color: floralwhite;
+    color: darkslategrey;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+caption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Specific style for ejercicio2.html to align text to the left */
+table:nth-of-type(2) tr td {
+    text-align: left;
+}
